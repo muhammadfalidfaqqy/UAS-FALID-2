@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengelolaan Data Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pengelolaan Data Mahasiswa</h1>
+        <div id="menu">
+            <button onclick="tambahMahasiswa()">Tambah Data Mahasiswa</button>
+            <button onclick="tampilkanSemua()">Tampilkan Semua Data</button>
+            <button onclick="cariMahasiswa()">Cari Data Mahasiswa</button>
+            <button onclick="urutkanData()">Urutkan Data</button>
+            <button onclick="simpanData()">Simpan Data ke Berkas</button>
+            <button onclick="bacaData()">Baca Data dari Berkas</button>
+        </div>
+        <div id="input-area" style="display: none;">
+            <h3 id="input-title"></h3>
+            <div id="input-fields"></div>
+            <button onclick="simpanInput()">Simpan</button>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
